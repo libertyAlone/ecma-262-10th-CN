@@ -1,0 +1,17 @@
+{
+  "name": "ecma-262-10th-cn",
+  "version": "1.0.0",
+  "description": "ecma2019标准中文翻译",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecma-262",
+    "ecma2019",
+    "zh-CN",
+    "translation"
+  ],
+  "author": "libertyalone",
+  "license": "ISC"
+}
