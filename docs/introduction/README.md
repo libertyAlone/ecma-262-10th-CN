@@ -24,7 +24,7 @@ ECMAScript2017引入了Async函数，共享内存和原子操作和少量的语�
 
 ECMAScript 2018引入了通过AsyncIterator协议和异步生成器对异步迭代器的支持。也包括了四个正则表达式的特性： dotAll标识，命名捕获组，Unicode属性转义和后行断言。最后包括了对象属性的其余参数(rest parameter)和展开运算符(spread operator)。
 
-本标准是第十版，引入了几个新的内置函数：用于扁平化数组的在`Array.prototype`上的`flat`和`flatMap`，用于将`Object.entries`返回值直接转换成新的Object的`Object.fromEntries`，在`String.prototype`上命名更规范来代替非标准广泛实现的内置方法`String.prototype.trimLeft`和 `trimRight`的`trimStart` 和 `trimEnd`方法。此外还包括几个小的语法和语意更新。更新的语法包括可选的catch函数的绑定参数，并允许JSON中字符串文本中U+2028 (行分隔符)和U+2029 (段落分隔符)。其他更新包括要求`Array.prototype.sort`是稳定排序，要求JSON.stringify返回与输入无关格式化好的UTF-8，声明`Function.prototype.toString`需要返回对应的原始源文本或者标准占位符其中之一。
+本标准是第十版，引入了几个新的内置函数：用于扁平化数组的在`Array.prototype`上的`flat`和`flatMap`，用于将`Object.entries`返回值直接转换成新的Object的`Object.fromEntries`，在`String.prototype`上命名更规范来代替非标准广泛实现的内置方法`String.prototype.trimLeft`和 `trimRight`的`trimStart` 和 `trimEnd`方法。此外还包括几个小的语法和语义更新。更新的语法包括可选的catch函数的绑定参数，并允许JSON中字符串文本中U+2028 (行分隔符)和U+2029 (段落分隔符)。其他更新包括要求`Array.prototype.sort`是稳定排序，要求JSON.stringify返回与输入无关格式化好的UTF-8，声明`Function.prototype.toString`需要返回对应的原始源文本或者标准占位符其中之一。
 
 代表不同组织的很多个人开发者在Ecma TC39中为此版本和之前的版本开发做了很大的贡献。此外还产生了支持TC39 ECMAScript工作的充满活力的社区组织。这个社区校对了大量的草稿和归档的上千个bug报告，演示了实验的实现，贡献了测试用例并在全世界的开发者中布道ECMAScript。不幸的是，难以对这些投入到这个工作中的个人和组织认证和答谢。
 
@@ -33,23 +33,3 @@ ECMA-262 第六版 项目编辑
 
 Brian Terlson
 ECMA-262 第七版~第十版 项目编辑
-
-## 1 范围
-
-本标准定义了ECMAScript 2019编程语言。
-
-## 2 一致性
-
-一个符合ECMAScript标准的实现必须提供并支持全部的 类型，值， 对象，属性，函数以及此标准中描述的编程语法和语义。
-
-解释源文本的输入必须与最新版本的Unicode标准和ISO/IEC 10646标准保持一致。
-
-提供的应用程序接口(API)的程序，需要适应使用不同自然语言的国家的语言和文化习惯，且要实现最新版本的与本规范兼容的ECMA-402定义的接口。
-
-可以提供那些超出本规范描述的额外类型，值，对象，属性以及方法。尤其对于该文档有提到但没描述其属性的那些对象，应该提供那些属性以及属性对应的值。
-
-应该支持一些没有在规范中提及的程序或者正则表达式语法。尤其应该实现在11.6.2.2小节中列出的那些保留字的语法。
-
-绝对不能实现在16.2小节中列出的禁止的扩展。
-
-## 3 规范的引用
