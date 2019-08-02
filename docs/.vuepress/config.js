@@ -33,6 +33,10 @@ module.exports = {
           {
             title: '4.1 Web脚本',
             path: '/c4-Overview/4.1-web-scripting',
+          },
+          {
+            title: '4.2 ECMAScript概览',
+            path: '/c4-Overview/4.2-ECMAScript-Overview',
           }
         ]
       }
